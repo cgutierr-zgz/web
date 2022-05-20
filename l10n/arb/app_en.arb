@@ -1,0 +1,19 @@
+{
+	"@@locale": "en",
+	"pageTitle": "carlosgutimo",
+	"@pageTitle": {
+		"description": "Title text of the aplicación"
+	},
+	"contactMeAt": "contact me @",
+	"@contactMeAt": {
+		"description": "Text for the contact me link"
+	},
+	"unkownPageMessage": "this page does not exist, dude",
+	"@unkownPageMessage": {
+		"description": "Text for the unkown page error"
+	},
+	"goBackHome": "go back home",
+	"@goBackHome": {
+		"description": "Text for go back home button"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"@@locale": "es",
+	"pageTitle": "carlosgutimo",
+	"@pageTitle": {
+		"description": "Texto del título de la aplicación"
+	},
+	"contactMeAt": "contáctame @",
+	"@contactMeAt": {
+		"description": "Texto para el link de contacto"
+	},
+	"unkownPageMessage": "esta página no existe, colega",
+	"@unkownPageMessage": {
+		"description": "Texto de error para una página desconocida"
+	},
+	"goBackHome": "go back home",
+	"@goBackHome": {
+		"description": "Text para el botón de vuelta a home"
+	}
+}
