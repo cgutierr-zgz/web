@@ -15,8 +15,7 @@ class ErrorPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final color =
-        theme.brightness == Brightness.light ? Colors.black : Colors.white;
+    final color = theme.primaryColor;
     final l10n = context.l10n;
 
     return Scaffold(
@@ -55,8 +54,7 @@ class ErrorCheese extends StatelessWidget {
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
     final theme = Theme.of(context);
-    final color =
-        theme.brightness == Brightness.light ? Colors.black : Colors.white;
+    final color = theme.primaryColor;
 
     return Stack(
       alignment: Alignment.center,

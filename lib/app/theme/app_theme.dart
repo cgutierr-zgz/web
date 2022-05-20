@@ -6,13 +6,14 @@ class AppTheme {
     useMaterial3: true,
     visualDensity: VisualDensity.adaptivePlatformDensity,
     textTheme: GoogleFonts.gloriaHallelujahTextTheme(),
-    //colorScheme: ColorScheme.fromSeed(),
+    primaryColor: Colors.black,
   );
 
   static final ThemeData darkTheme = ThemeData(
     useMaterial3: true,
     visualDensity: VisualDensity.adaptivePlatformDensity,
     textTheme: GoogleFonts.gloriaHallelujahTextTheme(),
+    primaryColor: Colors.white,
     brightness: Brightness.dark,
   );
 }

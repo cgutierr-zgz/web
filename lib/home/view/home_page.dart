@@ -26,9 +26,7 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     final l10n = context.l10n;
     final theme = Theme.of(context);
-
-    final color =
-        theme.brightness == Brightness.light ? Colors.black : Colors.white;
+    final color = theme.primaryColor;
 
     return Scaffold(
       appBar: AppBar(
@@ -78,8 +76,7 @@ class HomeBody extends StatelessWidget {
   Widget build(BuildContext context) {
     final l10n = context.l10n;
     final theme = Theme.of(context);
-    final color =
-        theme.brightness == Brightness.light ? Colors.black : Colors.white;
+    final color = theme.primaryColor;
 
     return TextButton(
       style: TextButton.styleFrom(primary: color),
