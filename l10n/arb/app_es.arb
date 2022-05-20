@@ -15,5 +15,9 @@
 	"goBackHome": "go back home",
 	"@goBackHome": {
 		"description": "Text para el botón de vuelta a home"
+	},
+	"copiedToClipboard": "copiado al portapapeles",
+	"@copiedToClipboard": {
+		"description": "Texto para el snackbar cuando se copia al portapapeles"
 	}
 }

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:web/app/app.dart';
 import 'package:web/home/home.dart';
 import 'package:web/utils/utils.dart';
@@ -82,6 +84,22 @@ class HomeBody extends StatelessWidget {
       style: TextButton.styleFrom(primary: color),
       child: Text('${l10n.contactMeAt} $mail'),
       onPressed: () => openUrl('mailto:$mail'),
+      onLongPress: () {
+        try {
+          Clipboard.setData(const ClipboardData(text: mail));
+
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              content: Text(
+                l10n.copiedToClipboard,
+                style: GoogleFonts.gloriaHallelujah(),
+              ),
+            ),
+          );
+        } catch (e) {
+          throw Exception(e);
+        }
+      },
     );
   }
 }

@@ -15,5 +15,9 @@
 	"goBackHome": "go back home",
 	"@goBackHome": {
 		"description": "Text for go back home button"
+	},
+	"copiedToClipboard": "copied to clipboard",
+	"@copiedToClipboard": {
+		"description": "Text for snackbar when copied to clipboard"
 	}
 }
