@@ -8,6 +8,5 @@ jobs:
     with:
       flutter_channel: stable
       flutter_version: 3.0.0
-      coverage_excludes: "*.g.dart"
-      coverage_excludes: "*.gen.dart"
+      coverage_excludes: "*.g.dart *.gen.dart"
       min_coverage: 0
